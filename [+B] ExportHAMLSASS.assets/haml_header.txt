@@ -1,0 +1,10 @@
+!!! 5
+%html{:lang => "$_LANG_"}
+	%head
+		%meta{:charset => "UTF-8"}
+		%title $_TITLE_
+		%meta{:name => "keywords", :content => "__keywords__"}
+		%meta{:name => "description", :content => "__description__"}
+		%script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js"}
+		%link{:rel => "stylesheet", :href => "$_CSS_FILE_PATH_.css"}
+	%body
