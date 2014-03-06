@@ -5,7 +5,7 @@ Create html/css files from your Photoshop file easily.
 
 ![PSD and Pallette](https://dl.dropboxusercontent.com/u/15492792/github_resources/psd_and_palette.png)
 ![Up to compile](https://dl.dropboxusercontent.com/u/15492792/github_resources/psd_to_compile.png)
-
+![Exported files](https://dl.dropboxusercontent.com/u/15492792/github_resources/exported_files.png)
 
 # Installation
 
