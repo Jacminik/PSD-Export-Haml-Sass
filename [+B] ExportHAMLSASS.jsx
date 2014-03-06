@@ -48,7 +48,7 @@ function main() {
         var fileName = doc.name.split('.')[0];
         
         hamlHeader = hamlHeader.replace('$_LANG_', appLang);
-        hamlHeader = hamlHeader.replace('$_CSS_FILE_PATH_', '.../css/'+fileName);
+        hamlHeader = hamlHeader.replace('$_CSS_FILE_PATH_', './css/'+fileName);
         hamlHeader = hamlHeader.replace('$_TITLE_', fileName);
         
         var souces = getSouceFromDocment(doc);
@@ -171,12 +171,15 @@ function scanLayersToSource(target, indent, outputs) {
                         outputs[1] += sassTab + removeSymbol(layerName) + bracket;
                         _previouseSassIndent = sassIndent;
                     }
+                    if (text.length > 15) {
+                        text = text.substr(0, 15) + '...';
+                    }
                     outputs[1] += sassTab + '/* ' + text + ' */' + CR;
                 }
                 else {                              // layer is not textLayer.
                     if (isImage(layerName))              // layer has extention of image.
                     {
-                        outputs[0] += hamlTab + '%img{:src => "../images/'+ layerName +'", :alt => "__ALT__"}' + CR;
+                        outputs[0] += hamlTab + '%img{:src => "./images/'+ layerName +'", :alt => "__ALT__"}' + CR;
                         outputs[1] += sassTab + 'img' + bracket;
                         _previouseSassIndent = sassIndent;
                     }
