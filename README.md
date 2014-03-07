@@ -2,6 +2,7 @@ MarkupExporter   ~ PSD Export Haml/ Sass ~
 =====================
 
 This script helps complete the markup in Photoshop for your web site easily.
+
 You modify the layer structure of the PSD file and only carry out a script. MarkupExporter exports haml/sass file automatically.
 
 ![PSD and Pallette](https://dl.dropboxusercontent.com/u/15492792/github_resources/psd_and_palette.png)
@@ -29,13 +30,17 @@ At first gets to make a layer group named %body. The layer(s) outside '%body' la
 
 
 #### About The Text Layer
-`%p` and `%a` , `%h1`(etc..) are usable for the name of textLayer. The textLayer's text is handled automatically, do not include the textLayer's text on the layer name.
+`%p` and `%a` , `%h1`(etc..) are usable for the name of textLayer. 
+
+The textLayer's text is handled automatically, do not include the textLayer's text on the layer name.
+
 The line-break of the text is reflected.
 
 ![textlayer names](https://dl.dropboxusercontent.com/u/15492792/github_resources/textlayer.png)
 
 #### About The Image (img tag)
 When you want to treat the layer as an image, please rename it like 'logo.jpg' without adding "%~" or "%img" to the name of layer.
+
 The layer that layer name ends in image extension(.jpg, .png, .gif, .svg) is treated as an image, and `src` and `alt` are added to a source automatically.
 * This script can use Image Assets of Photoshop(Genarator) and [Slicy](http://macrabbit.com/slicy/) together.
 
@@ -54,6 +59,7 @@ When you have the layer that you want to exclude from processing, please attach 
 
 ### 3. Edit the Haml file and the Sass File, and Compile.
 Edit exported Haml file(.haml) and Sass file(.scss), and compile them using  [CodeKit](https://incident57.com/codekit/) or other.
+
 (Checked the operation of MarkupExporter by CodeKit.)
 
 

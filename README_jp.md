@@ -2,6 +2,7 @@ MarkupExporter   ~ PSD Export Haml/ Sass ~
 =====================
 
 Photoshop内で簡単にWebサイトのマークアップを完了させるためのスクリプトです。
+
 psdファイルのレイヤー構造を変更し、スクリプトを実行するだけで自動的にhaml/sassファイルがエクスポートされます。
 
 ![PSD and Pallette](https://dl.dropboxusercontent.com/u/15492792/github_resources/psd_and_palette_jp.png)
@@ -30,13 +31,18 @@ Haml記法については本家サイト等を参照:
 
 
 #### テキストレイヤーについて
-テキストレイヤーのレイヤー名には `%p` や `%a` 、`%h1` といった名称が利用出来ます。テキストレイヤーに含まれる文字列は自動で取得されるため、その文字列をレイヤー名に追加する必要はありません。
+テキストレイヤーのレイヤー名には `%p` や `%a` 、`%h1` といった名称が利用出来ます。
+
+テキストレイヤーに含まれる文字列は自動で取得されるため、その文字列をレイヤー名に追加する必要はありません。
+
 文字列の改行も反映されます。
 
 ![textlayer names](https://dl.dropboxusercontent.com/u/15492792/github_resources/textlayer_jp.png)
 
 #### 画像ファイル(<img>タグ)について
 画像として利用したいレイヤーがある場合には `%~` や `%img` などを付けずに `logo.jpg` といったレイヤー名にします。
+
+
 レイヤー名が画像用拡張子(.jpg, .png, .gif, .svg)で終わるレイヤーは画像として処理され、自動的に `src` と `alt` がソースに追加されます。
 
 ※ Photoshopの画像アセット(Generator)機能や [Slicy](http://macrabbit.com/slicy/) とも併用できます。
@@ -55,15 +61,20 @@ Haml記法については本家サイト等を参照:
 
 ### 3. Haml/Sass ファイルの編集とコンパイル
 書き出されたHaml/Sassファイルを編集します。それらをhtml/cssに変換するにはコンパイラを利用します。
+
 ファイルのコンパイルには [CodeKit](https://incident57.com/codekit/) やその他のコンパイラやサービスを利用してください。
+
 (※ MarkupExporterはCodeKitで動作確認されています)
 
 ### 4. ヘッダファイルのカスタマイズ
 標準ではHamlの書き出しは、HTML 5 向けテンプレートになっています。
+
 これを変更したい場合は `[+B]MarkupExporter.assets` フォルダ内の `haml_header.txt` を編集します。
+
 このテキストファイルは Hamlのヘッダとして処理されるため、必ずHaml記法で記述してください。
 
 # ライセンス
 
 このプロジェクトは MITライセンスの元で公開されています。
+
 ※ プロジェクトに含まれる 'sample.psd' の作成には [WebZap](http://webzap.uiparade.com/) (by [UIParade](http://www.uiparade.com/)) を利用しました。
