@@ -11,7 +11,7 @@ psdファイルのレイヤー構造を変更し、スクリプトを実行す�
 
 # インストール方法:
 
-* このページの右にある"Download ZIP"ボタンをクリックしてプロジェクトをダウンロードします。
+* [プロジェクトページ](https://github.com/Jacminik/PSD-Export-Haml-Sass)の右にある"Download ZIP"ボタンをクリックしてプロジェクトをダウンロードします。
 * 解凍したフォルダ内にある`[+B]MarkupExporter.jsx` と `[+B]MarkupExporter.assets` フォルダをPhotoshopのScriptフォルダへ移動します。
 	* Mac : 		`/Applications/Adobe Photoshop CC/Presets/Scripts`
 	* Windows:	`C:\Program Files\Adobe\Adobe Photoshop CC\Presets\Scripts`
