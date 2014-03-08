@@ -5,9 +5,9 @@ This script helps complete the markup in Photoshop for your web site easily.
 
 You modify the layer structure of the PSD file and only carry out a script. MarkupExporter exports haml/sass file automatically.
 
-![PSD and Pallette](https://dl.dropboxusercontent.com/u/15492792/github_resources/psd_and_palette.png)
+![PSD and Pallette](https://dl.dropboxusercontent.com/u/15492792/github_resources/psd_and_palette.jpg)
 ![Up to compile](https://dl.dropboxusercontent.com/u/15492792/github_resources/psd_to_compile.png)
-![Exported files](https://dl.dropboxusercontent.com/u/15492792/github_resources/exported_files.png)
+![Exported files](https://dl.dropboxusercontent.com/u/15492792/github_resources/exported_files.jpg)
 
 # Installation
 

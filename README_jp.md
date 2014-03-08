@@ -5,9 +5,9 @@ Photoshop内で簡単にWebサイトのマークアップを完了させるた�
 
 psdファイルのレイヤー構造を変更し、スクリプトを実行するだけで自動的にhaml/sassファイルがエクスポートされます。
 
-![PSD and Pallette](https://dl.dropboxusercontent.com/u/15492792/github_resources/psd_and_palette_jp.png)
+![PSD and Pallette](https://dl.dropboxusercontent.com/u/15492792/github_resources/psd_and_palette_jp.jpg)
 ![Up to compile](https://dl.dropboxusercontent.com/u/15492792/github_resources/psd_to_compile.png)
-![Exported files](https://dl.dropboxusercontent.com/u/15492792/github_resources/exported_files_jp.png)
+![Exported files](https://dl.dropboxusercontent.com/u/15492792/github_resources/exported_files_jp.jpg)
 
 # インストール方法:
 
