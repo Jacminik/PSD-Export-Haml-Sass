@@ -44,12 +44,12 @@ When you want to treat the layer as an image, please rename it like 'logo.jpg' w
 The layer that layer name ends in image extension(.jpg, .png, .gif, .svg) is treated as an image, and `src` and `alt` are added to a source automatically.
 * This script can use Image Assets of Photoshop(Genarator) and [Slicy](http://macrabbit.com/slicy/) together.
 
-![imagelayer names](https://dl.dropboxusercontent.com/u/15492792/github_resources/imagelayer.png)
+![imagelayer names](https://dl.dropboxusercontent.com/u/15492792/github_resources/image_layer.png)
 
 #### Exclude From The Layer Of The Processing
 When you have the layer that you want to exclude from processing, please attach "-" at the beginning of the name of the layer.
 
-![exclude symbol](https://dl.dropboxusercontent.com/u/15492792/github_resources/exclude_symbol.png)
+![exclude symbol](https://dl.dropboxusercontent.com/u/15492792/github_resources/excludesymbol.png)
 
 ### 2. Run 'MarkupExporter' Script
 
