@@ -47,12 +47,12 @@ Haml記法については本家サイト等を参照:
 
 ※ Photoshopの画像アセット(Generator)機能や [Slicy](http://macrabbit.com/slicy/) とも併用できます。
 
-![imagelayer names](https://dl.dropboxusercontent.com/u/15492792/github_resources/imagelayer_jp.png)
+![imagelayer names](https://dl.dropboxusercontent.com/u/15492792/github_resources/image_layer_jp.png)
 
 #### 特定のレイヤーを処理から除外するには
 スクリプトの処理から除外したいレイヤーがある場合には、そのレイヤー名の先頭に `-` (半角マイナス記号)を追加します。
 
-![exclude symbol](https://dl.dropboxusercontent.com/u/15492792/github_resources/exclude_symbol_jp.png)
+![exclude symbol](https://dl.dropboxusercontent.com/u/15492792/github_resources/excludesymbol_jp.png)
 
 ### 2. 'MarkupExporter' スクリプトを実行する
 * Photoshopのスクリプトメニューからスクリプトを選択します: ファイル > スクリプト > [+B]MarkupExporter.
